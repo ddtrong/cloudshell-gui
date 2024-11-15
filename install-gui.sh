@@ -7,5 +7,5 @@ sudo dpkg -i chrome-remote-desktop*
 sudo apt --fix-broken install --assume-yes
 rm chrome-remote-desktop*
 rm -rf firefox firefox.tbz
-wget -o firefox.tbz https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US
+wget -o firefox.tbz "https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US"
 tar xf firefox.tbz
